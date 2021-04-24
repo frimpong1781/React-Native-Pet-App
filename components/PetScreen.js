@@ -9,24 +9,28 @@ const PetScreen = () => {
                breed: "Cat",
                age: "2 years old",
                location: "93 Shoreline Dr.",
+               petImage: "Raka.jpeg",
           },
           {
                petName: "Raka",
                breed: "Dog",
                age: "13 years old",
                location: "93 Shoreline Dr.",
+               petImage: "Raka.jpeg",
           },
           {
                petName: "Jhony",
                breed: "Dog",
                age: "2 years old",
                location: "93 Shoreline Dr.",
+               petImage: "Raka.jpeg",
           },
           {
                petName: "Ghandi",
                breed: "Dog",
                age: "6 years old",
                location: "7 High st. Tadi",
+               petImage: "Raka.jpeg",
           },
      ];
 
@@ -41,6 +45,7 @@ const PetScreen = () => {
                                    breed={item.breed}
                                    age={item.age}
                                    location={item.location}
+                                   petImage={item.petImage}
                               />
                          );
                     }}
