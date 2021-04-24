@@ -2,11 +2,12 @@ import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 import { EvilIcons } from "@expo/vector-icons";
 
-const Pet = ({ name, breed, age, location }) => {
+const Pet = ({ name, breed, age, location, petImage }) => {
      return (
           <View style={styles.container}>
                <Image
-                    source={require("../assets/Pastel.jpeg")}
+                    source={require("../assets/Ninja.jpeg")}
+                    // source={require("../assets/" + { petImage })}
                     style={styles.image}
                />
                <View style={styles.petInfo}>
